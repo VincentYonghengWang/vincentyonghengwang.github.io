@@ -1,4 +1,4 @@
-Enterprise RSI needs an optimization space that will not be exhausted anytime soon. This space may come from scientific exploration, competitive games (safety, trading), or the speed of information decay (trading). Many people believe RSI should involve pretraining and scaling laws. Others believe RSI may also be possible at the harness layer, as long as its improvements feed back into a greater ability to make improvements in the next round. Before discussing enterprise RSI, let us first discuss enterprise tasks. **I roughly divide tasks into two categories—or two ends of a spectrum.**
+Enterprise RSI needs an optimization space that will not be exhausted anytime soon. This space may come from scientific exploration or competitive games (safety, trading). Many people believe RSI should involve pretraining. Others believe RSI may also be possible at the harness layer, as long as its improvements feed back into a greater ability to make improvements in the next round. Before discussing enterprise RSI, let us first discuss enterprise tasks. **I roughly divide tasks into two categories—or two ends of a spectrum.**
 
 ## Type 1: Mapped-Space Tasks
 
@@ -10,17 +10,15 @@ These mainly include five categories:
 4. Business Operations
 5. Financial Operations
 
-**These tasks share two characteristics: their optimization ceilings are relatively clear, and changes mainly come from local updates, such as new product releases, changes in the law, or adjustments to recruiting processes. Many scenarios do not need RSI; they just need an FDE to build the workflow well.**
+These tasks share two characteristics: their optimization ceilings are relatively clear, and changes mainly come from local updates, such as new product releases, changes in the law, or adjustments to recruiting processes. Many scenarios do not need RSI; they just need an FDE to build the workflow well.
 
-**2. To pursue self-improvement, first build a representative benchmark that accurately represents real tasks, including task frequency, different task types and difficulty levels, failure modes, and environment coverage—including permissions, tool availability, context limitations, and verification.**
+2. To pursue self-improvement, first build a representative benchmark that accurately represents real tasks, including task frequency, different task types and difficulty levels, failure modes, and environment coverage—including permissions, tool availability, context limitations, and verification.
 
 A self-evolving harness can then continuously improve toward the target on its own.
 
-## Type 2: Open-Ended RSI
+## Type 2: Open Ended Problems
 
-These tasks require a defined goal, tools, an environment, **constraints, evaluation criteria, and a search space:** What can the system change or discover? For example, when improving training efficiency, the search space needs to be clear:
-
-Can the system modify the learning rate, optimizer, model architecture, CUDA kernels, training pipeline, and so on?
+These tasks require a defined goal, tools, an environment, constraints, evaluation criteria, and a search space: What can the system change or discover? For example, when improving training efficiency, the search space needs to be clear: Can the system modify the learning rate, optimizer, model architecture, CUDA kernels, training pipeline, and so on?
 
 ### Example 1: Improving Model Training Efficiency
 
@@ -50,7 +48,7 @@ Can the system modify the learning rate, optimizer, model architecture, CUDA ker
 
 **Search Space:** Genes, proteins, pathways, mechanisms.
 
-A characteristic of this field is that **evaluation is expensive and time-consuming.**
+A characteristic of this field is that evaluation is expensive and time-consuming.
 
 ### Example 3: GTM RSI
 
@@ -113,15 +111,13 @@ Information decays at different speeds across domains.
 
 Financial markets are not only competitive; information also decays quickly. This makes them particularly well suited to automated research and continuous optimization.
 
-## IV. Five Directions Most Worth Exploring for RSI
+## Five Directions Worth Exploring for RSI
 
-The five directions most worth exploring today are:
-
-1. **Life Science**
-2. **Entertainment**
-3. **Finance**
-4. **Cybersecurity**
-5. **GTM**
+1. Life Science
+2. Entertainment
+3. Finance
+4. Cybersecurity
+5. GTM
 
 These fields have expanding optimization spaces, primarily driven by two mechanisms:
 
@@ -130,17 +126,7 @@ These fields have expanding optimization spaces, primarily driven by two mechani
 
 ## V. Robotics: An Important Bridge for RSI into Traditional Physical Industries
 
-Why do potential directions for RSI seem concentrated in a few digital fields?
-
-Traditional manufacturing, agriculture, construction, and other industries seem insufficiently covered.
-
-One important reason is that AI can currently operate directly in digital environments, but cannot directly perform many physical tasks.
-
-**Robotics is an important bridge for RSI into traditional physical industries.**
-
-Many traditional industries currently cannot complete an entire optimization loop with software agents alone.
-
-Robotics can extend RSI from digital space into physical space.
+Why do potential directions for RSI seem concentrated in a few digital fields? Traditional manufacturing, agriculture, construction, and other industries seem insufficiently covered. One important reason is that AI can currently operate directly in digital environments, but cannot directly perform many physical tasks. Robotics is an important bridge for RSI into traditional physical industries. Many traditional industries currently cannot complete an entire optimization loop with software agents alone. Robotics can extend RSI from digital space into physical space.
 
 ## VI. RSI Needs a Third Condition: Economic Sustainability
 
@@ -151,5 +137,7 @@ Even if continuous optimization is technically possible, sustaining long-term sp
 RSI therefore needs not only an expanding optimization space and recursive improvement, but also consideration of economic sustainability.
 
 **The core question: Can continuous improvements in capability create enough economic value to support the next round of optimization?**
+
+For example, in my view, Anthropic’s research on [designing proteins that bind to scorpion neurotoxins](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design) is probably not a study that can generate much economic value.
 
 **Note:** This note does not aim to get every point right. I am simply recording these thoughts for now.
